@@ -1,5 +1,35 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-gin-contrib-sse (0.1.0-2) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-gin-contrib-sse-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 27 Nov 2022 04:17:56 +0000
+
+golang-github-gin-contrib-sse (0.1.0-1) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+
+  [ Shengjing Zhu ]
+  * Bump uscan watch file version to 4
+  * New upstream version 0.1.0
+  * Update Section to golang
+  * Update maintainer and uploader email address
+  * Update Standards-Version to 4.5.1
+  * Add Rules-Requires-Root
+  * Remove golang-github-stretchr-testify-dev from Depends
+  * Bump debhelper-compat to 13
+  * Drop patches
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sun, 13 Dec 2020 17:31:19 +0800
+
+golang-github-gin-contrib-sse (0.0~git20170109.0.22d885f-1) unstable; urgency=medium
+
+  * Initial release (Closes: #869368)
+
+ -- Shengjing Zhu <i@zhsj.me>  Sun, 23 Jul 2017 02:33:02 +0800
